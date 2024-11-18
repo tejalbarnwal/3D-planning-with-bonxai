@@ -107,9 +107,8 @@ bonxai_server_node:
     latch: false
 ```
 
-**A very important note**:
+>**A very important note**: <br>
 When using Bonxai for the first time, I encountered a stability and performance issue, which is explained in detail [here](https://github.com/facontidavide/Bonxai/issues/35). The issue was related to having some `inf` values in the PCL point cloud.
-
 The suggested fix for this problem is also discussed in the linked issue. Please refer to it to ensure smooth operation.
 
 
