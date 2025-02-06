@@ -1,6 +1,6 @@
 # 3D-planning-with-bonxai
 
-This repository aims to demonstrate how to use Bonxai for 3D planning with a quadrotor, utilizing Ardupilot for control.
+This work in progress repository aims to demonstrate how to use Bonxai for 3D planning with a quadrotor, utilizing Ardupilot for control
 > Note: This is a side project I am working on during my free time
 
 ### Setup Instructions:
@@ -129,3 +129,9 @@ bonxai_node = Node(
     arguments=['--ros-args', '--log-level', 'DEBUG']
 )
 ```
+
+Work In Progress:
+* [x] Setup ROS2 with Ardupilot Sim
+* [x] Experiment with sim integration of Bonxai
+* [ ] Ideate a simple 3D Planner(thought of RRG)
+* [ ] Implementation
